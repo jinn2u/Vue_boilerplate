@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "vue": "^3.2.19"
+    "vue": "^3.2.19",
+    "vuex": "^4.0.2"
   },
   "keywords": [],
   "author": "",
