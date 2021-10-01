@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "vue": "^3.2.19",
+    "vue-router": "^4.0.11",
     "vuex": "^4.0.2"
   },
   "keywords": [],
@@ -13,11 +14,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode production"
+    "dev": "webpack-dev-server --mode development"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.19",
-    "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.3.0",
     "eslint": "^7.32.0",
